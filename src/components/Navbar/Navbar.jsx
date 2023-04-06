@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
-import './Navbar.css'
-import { Logo } from '../index';
-import { close, menu } from '../index'
+import React, { useState } from 'react';
+import './Navbar.css';
+import images from '../../constants/images';'./';
 
 const Navbar = () => {
 
@@ -12,7 +11,7 @@ const Navbar = () => {
       <div className='app__navbar'>
 
         <div className="app__navbar-logo">
-          <img src={Logo} alt="Logo" />
+          <img src={images.logo} alt="Logo" />
         </div>
 
         <div className="app__navbar-links">
@@ -30,7 +29,7 @@ const Navbar = () => {
         </div>
 
         <div className="app__navbar-smallscreen">
-          <img src={toggle ? close : menu} fontSize={27} color='#fff' onClick={()=> {setToggle((prev) => !prev)}}/>
+          <img src={toggle ? images.close : images.menu} fontSize={27} color='#fff' onClick={()=> {setToggle((prev) => !prev)}}/>
             {toggle && (
               <div className="app__navbar-links_smallscreen">
                 <ul className='links'>
