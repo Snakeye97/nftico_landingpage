@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import { LOGO } from '../index';
+import { Logo } from '../index';
 import { close, menu } from '../index'
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className='app__navbar'>
 
         <div className="app__navbar-logo">
-          <img src={LOGO} alt="Logo" />
+          <img src={Logo} alt="Logo" />
         </div>
 
         <div className="app__navbar-links">
