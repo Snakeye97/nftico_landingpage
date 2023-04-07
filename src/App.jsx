@@ -2,11 +2,12 @@ import React from 'react'
 import { Navbar } from './components'
 import { Explore } from './container'
 import styles from './style'
+import './App.css'
 
 const App = () => (
-    <div className='bg-black w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth} font-Outfit`}>
+    <div className='bg-mainBg w-full overflow-hidden'>
+      <div className={` ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>

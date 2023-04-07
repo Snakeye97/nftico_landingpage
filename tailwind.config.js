@@ -1,16 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   mode: "jit",
   theme: {
     extend: {
       colors: {
-        primary: "#09090A",
+        primary: "#04011C",
         whiteText: "#ffffff",
-        Pink: "#E01E5A",
+        pinkHover: "#E01E5A",
         mainBg: "#09090A",
         cardBg: "#1E1B33",
-        bgGradient: "#D71D6199",
+        bgGradient: "linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%)",
         purpleText: "#7040F2"
       },
       fontFamily: {
