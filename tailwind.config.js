@@ -5,13 +5,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
-        secondary: "#00f6ff",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        primary: "#09090A",
+        whiteText: "#ffffff",
+        Pink: "#E01E5A",
+        mainBg: "#09090A",
+        cardBg: "#1E1B33",
+        bgGradient: "#D71D6199",
+        purpleText: "#7040F2"
       },
       fontFamily: {
-        Outfit: ["Outfit"],
+        Outfit: ["Outfit"]
       },
     },
     screens: {
