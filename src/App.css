@@ -15,8 +15,36 @@ body{
   line-height: 20px;
   /* identical to box height, or 125% */
 
+  color: #FFFFFF;
+  transition: 0.05s ease;
+  cursor: pointer;
+}
+.button1:hover{
+  background: #1E1B33;
+}
+
+.button2{
+  padding: 0.4rem 1rem;
+  gap: 10px;
+
+  background: #1E1B33;
+  border: 1px solid rgba(231, 231, 231, 0.4);
+  border-radius: 8px;
+
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
 
   color: #FFFFFF;
+  transition: 0.05s ease;
+  cursor: pointer;
+}
+
+.button2:hover{
+  border: none;
 }
 
 .links a{
@@ -46,7 +74,7 @@ body{
   font-family: 'Outfit';
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 54px;
   line-height: 80px;
   /* or 125% */
 
@@ -59,10 +87,14 @@ body{
   font-family: 'Outfit';
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 156%;
   /* or 37px */
 
 
   color: #FFFFFF;
+}
+
+.pink__text{
+  color: #E01E5A;
 }
