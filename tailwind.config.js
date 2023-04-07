@@ -11,10 +11,14 @@ module.exports = {
         mainBg: "#09090A",
         cardBg: "#1E1B33",
         bgGradient: "linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%)",
-        purpleText: "#7040F2"
+        purpleText: "#7040F2",
+        blue: "#0500FA",
       },
       fontFamily: {
         Outfit: ["Outfit"]
+      },
+      boxShadow:{
+        navShadow:"0 25px 15px -28px #E01E5A",
       },
     },
     screens: {
