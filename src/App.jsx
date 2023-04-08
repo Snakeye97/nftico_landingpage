@@ -17,6 +17,12 @@ const App = () => (
           <Explore />
         </div>
       </div>
+
+      <div className={` ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          stats
+        </div>
+      </div>
     </div>
   )
 
