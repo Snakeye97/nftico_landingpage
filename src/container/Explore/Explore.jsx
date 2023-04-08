@@ -22,12 +22,12 @@ const Explore = () => {
       </div>
 
       {/* img container */}
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 md:mx-0 mx:10 relative`}>
         <img src={images.Homeimg1} alt="img" 
-          className='w-[450px] h-[600px] object-contain'
+          className='ss:w-[450px] w-[90%] ss:h-[600px] object-contain'
         />
-        <div className='bg-primary rounded-full h-[60px] w-[60px] flex items-center justify-center absolute top-50 left-[50px]'>
-          <img src={images.arrow} alt="arrow" className='w-[40px]'/>
+        <div className='bg-primary rounded-full h-[60px] w-[60px] lg:flex hidden items-center justify-center absolute top-50 left-[50px]'>
+          <img src={images.arrow} alt="arrow" className='w-[40px] '/>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ const Explore = () => {
       <img src={images.HomeHexa} alt="hexa" className='absolute top-30 left-[50%]' />
       <div className='absolute z-[0] bg-orangeD w-[12px] h-[12px] rotate-[-45deg] opacity-[.8] bottom-[25%] left-[30%] md:flex hidden'/>
 
-      <div className='absolute bottom-[10%] flex gap-1 left-[50%]'>
+      <div className='absolute bottom-[10%] gap-1 left-[50%] lg:flex hidden'>
         <div className='divGradient w-[40px] h-[8px] rounded-full'/>
         <div className='bg-whiteText w-[15px] h-[8px] rounded-full'/>
         <div className='bg-whiteText w-[15px] h-[8px] rounded-full'/>
