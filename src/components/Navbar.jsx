@@ -4,47 +4,46 @@ import { navLinks } from '../constants'
 
 const Navbar = () => {
 
-  const [toggle, setToggle ] = useState(false)
+  const [toggle, settoggle] = useState(false)
 
 
   return (
-    <nav className='w-full py-4 justify-between items-center bg-primary flex px-6 shadow-pinkHover shadow-navShadow'>
-      <img src={images.logo} alt="logo" className='justify-start cursor-pointer'/>
+    
+    <nav className='w-full flex py-6 justify-between items-center navbar '>
+      <img src={images.logo} alt="logo"  className='w-[124px] h-[35px]'/>
 
-      <ul className=' flex-1 md:flex hidden justify-center items-center list-none'>
-        {navLinks.map((nav, index) => (
+      <ul className='flex-1 list-none sm:flex hidden justify-center items-center z-10'>
+        {navLinks.map((nav, index)=> (
           <li key={nav.id}
-          className={`font-Outfit text-whiteText font-normal text-[18px] leading-[23px] ${index=== navLinks.length - 1 ? 'mr-0' : 'mr-10'} mr-10 cursor-pointer hover:text-pinkHover`}>
+          className={`font-Outfit font-semibold cursor-pointer text-[18px] ${index=== navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-whiteText mr-10 hover:text-pinkHover`}>
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
 
-      <div className='flex flex-4 ml-4 justify-center items-center gap-5'>
-        <input type="text" placeholder='Search' className=' xs:flex hidden bg-[#1E1B33] px-[0.6rem] py-[0.4rem] rounded-[8px]'/>
-        <button type='button' className='button1 sm:flex hidden rounded-[8px] text-whiteText font-Outfit bg-gradient-to-r from-blue to-pinkHover'>Get in Touch</button>
+      <div className=' xs:flex hidden gap-2'>
+        <input type="text" placeholder='Search' 
+          className={`py-[0.4rem] px-[0.8rem] rounded-[8px] bg-[#1E1B33] border-[#E7E7E766] border-[1px]`}/>
+        <button className={`py-[0.4rem] px-[.6rem] rounded-[8px] button_gradient font-Outfit text-whiteText font-noraml sm:flex hidden`}>Get in Touch</button>
       </div>
 
-      <div className="md:hidden flex flex-1 justify-end items-center">
-        <img src={toggle ? images.close : images.menu} alt="menu" 
-        className='w-[28px] h-[28px] object-contain' 
-          onClick={() => setToggle((prev)=> !prev)}
+      <div className='sm:hidden flex flex-1 justify-end items center'>
+        <img src={toggle? images.close:images.menu} alt="menu" 
+          className='w-[24px] h-[24px] object-contain'
+          onClick={()=>settoggle((prev)=>!prev)}
         />
-          <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
 
-            <ul className="list-none flex justify-end items-center flex-1 flex-col">
-              {navLinks.map((nav, index)=>(
-                <li 
-                  key={nav.id}
-                  className={` font-Outfit font-normal cursor-pointer text-[16px] ${index=== navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-whiteText mr-10`}
-                  ><a href={`#${nav.id}`}>{nav.title}</a></li>
-              ))}
-            </ul>
-
-          </div>
+        <div className={`${toggle ? 'flex':'hidden'} bg-primary rounded-xl p-6 absolute top-20 right-2 mx-4 my-4 min-w-[140px] sidebar`}>
+            <ul className='flex-1 list-none justify-center items-center'>
+            {navLinks.map((nav, index)=> (
+              <li key={nav.id}
+              className={`font-Outfit font-semibold cursor-pointer text-[18px] ${index=== navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-whiteText mr-10 hover:text-pinkHover`}>
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+          </ul>
         </div>
-
-      
+      </div>
     </nav>
   )
 }

@@ -133,11 +133,27 @@
 }
 
 .pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
+  background: rgba(215, 29, 97, 0.6);
+  filter: blur(200px);
 }
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.button_gradient{
+  background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+  border-radius: 8px;
+}
+.button_gradient:hover{
+  background:#14101d ;
+}
+
+.divGradient{
+  background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+}
+
+.textGradient{
+  color: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);;
 }

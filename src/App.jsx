@@ -6,13 +6,17 @@ import './App.css'
 
 const App = () => (
     <div className='bg-mainBg w-full overflow-hidden'>
-      <div className={` ${styles.flexCenter}`}>
+      <div className={` bg-primary shadow-navShadow ${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
       
-      <Explore />
+      <div className={styles.flexStart}>
+        <div className={styles.boxWidth}>
+          <Explore />
+        </div>
+      </div>
     </div>
   )
 
