@@ -4,7 +4,7 @@ import { stats } from '../../constants'
 const Stats = () => {
   return (
     <div>
-        <div className='flex flex-1 items-center md:flex-row flex-col'>
+        <div className='flex flex-1 items-center md:flex-row flex-col ' id='stat'>
           <p className='text-whiteText font-Outfit max-w-[470px] md:text-[20px] text-[16px] justify-start items-center flex'>We will take all the worry and guesswork out of your blockchain and cryptocurrency concerns.</p>
 
           <div className='flex flex-1 gap-5 justify-center items-center flex-wrap md:mt-0 mt-[1.5rem]'>
