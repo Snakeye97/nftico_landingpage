@@ -7,7 +7,7 @@ const Stats = () => {
         <div className='flex flex-1 items-center md:flex-row flex-col'>
           <p className='text-whiteText font-Outfit max-w-[470px] md:text-[20px] text-[16px] justify-start items-center flex'>We will take all the worry and guesswork out of your blockchain and cryptocurrency concerns.</p>
 
-          <div className='flex flex-1 gap-5 justify-center items-center flex-wrap'>
+          <div className='flex flex-1 gap-5 justify-center items-center flex-wrap md:mt-0 mt-[1rem]'>
             {stats.map((stat) => (
               <div key={stat.id}
               className={`items-center justify-center flex-1 `}>
