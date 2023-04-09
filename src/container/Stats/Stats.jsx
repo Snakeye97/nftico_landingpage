@@ -11,7 +11,7 @@ const Stats = () => {
             {stats.map((stat) => (
               <div key={stat.id}
               className={`items-center justify-center flex-1 `}>
-                <h2 className={`text-purpleD font-Outfit text-[24px] font-bold`}>{stat.value}</h2>
+                <h2 className="text-purpleD font-Outfit text-[24px] font-bold bg-gradient-to-r from-blue to-pinkHover text-transparent bg-clip-text">{stat.value}</h2>
                 <p className={`text-whiteText font-Outfit text-[18px] font-normal`}>{stat.title}</p>
               </div>
             ))}

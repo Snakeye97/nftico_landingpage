@@ -1,8 +1,11 @@
 import React from 'react'
+import { Subheading } from '../../components'
 
 const Drop = () => {
   return (
-    <div>Drop</div>
+    <div className='flex flex-1 flex-col'>
+      <Subheading title='NFTs' text='Selected notable drops'/>
+    </div>
   )
 }
 

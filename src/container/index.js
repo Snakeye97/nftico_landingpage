@@ -1,9 +1,13 @@
 import Explore from "./Explore/Explore";
 import Stats from "./Stats/Stats";
 import Drop from "./Drop/Drop";
+import Subheading from "../components/SubHeading";
+import DropList from "../components/droplist";
 
-export{
+export {
   Explore,
   Stats,
-  Drop
-}
+  Drop,
+  Subheading,
+  DropList
+};

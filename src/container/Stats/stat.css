@@ -1,0 +1,34 @@
+#stat h2:first-child {
+  background-image: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-purpleD {
+  color: #7B61FF;
+}
+
+.font-Outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+.text-whiteText {
+  color: #FFFFFF;
+}
+
+.text-transparent {
+  background-color: transparent;
+}
+
+.from-blue {
+  background-color: #0500FA;
+}
+
+.to-pinkHover:hover {
+  background-color: #E01E5A;
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+}
