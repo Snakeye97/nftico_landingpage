@@ -1,5 +1,7 @@
-import Navbar from "./Navbar";
+import Navbar from './Navbar'
+import roundImg from "./roundImg";
 
 export {
-  Navbar
+  Navbar,
+  roundImg
 }

@@ -22,11 +22,11 @@ const Explore = () => {
       </div>
 
       {/* img container */}
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 md:mx-0 mx:10 relative`}>
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 md:mx-0 mx:10 relative `}>
         <img src={images.Homeimg1} alt="img" 
-          className='ss:w-[450px] w-[90%] ss:h-[600px] object-contain'
+          className='ss:w-[400px] w-[90%] ss:h-[550px] object-contain'
         />
-        <div className='bg-primary rounded-full h-[60px] w-[60px] lg:flex hidden items-center justify-center absolute top-50 left-[50px]'>
+        <div className='bg-primary rounded-full h-[60px] w-[60px] lg:flex hidden items-center justify-center absolute top-50 left-[70px]'>
           <img src={images.arrow} alt="arrow" className='w-[40px] '/>
         </div>
       </div>
@@ -43,7 +43,21 @@ const Explore = () => {
         <div className='bg-whiteText w-[15px] h-[8px] rounded-full'/>
       </div>
 
-      
+      <div className='absolute top-[55%] left-[40%] gap-4 md:flex hidden'>
+        
+        <div className='bg-mainBg p-1 rounded-full border-purpleD border-[1px] mt-10 '>
+          <div className='border-purpleD border-[1px] rounded-full border-dashed rotate-[17deg] bg-mainBg p-[1px]'>
+            <img src={images.Round1Img} alt="img" className='w-[60px] h-[60px] object-cover rounded-full'/>
+          </div>
+        </div>
+
+        <div className='bg-mainBg p-1 rounded-full border-purpleD border-[1px] translate-y-[-30px] '>
+          <div className='border-purpleD border-[1px] rounded-full border-dashed rotate-[17deg] bg-mainBg p-[1px]'>
+            <img src={images.Round2Img} alt="img" className='w-[100px] h-[100px] object-cover rounded-full'/>
+          </div>
+        </div>
+
+      </div>
     </section>
   )
 }

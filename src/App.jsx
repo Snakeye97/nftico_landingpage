@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from './components'
-import { Explore } from './container'
+import { Drop, Explore, Stats } from './container'
 import styles from './style'
 import './App.css'
 
@@ -8,7 +8,7 @@ const App = () => (
     <div className='bg-mainBg w-full overflow-hidden'>
       <div className={` bg-primary shadow-navShadow ${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
-          <Navbar />
+          <Navbar/>
         </div>
       </div>
       
@@ -20,7 +20,8 @@ const App = () => (
 
       <div className={` ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          stats
+          <Stats/>
+          <Drop/>
         </div>
       </div>
     </div>

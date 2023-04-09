@@ -6,6 +6,7 @@ import play from './play.svg';
 import arrow from './arrow.svg';
 import HomeHexa from './HomeHexa.svg';
 import Round1Img from './Roundimg-1.jpg'
+import Round2Img from './roundImg2.jpg'
 
 
 export default {
@@ -16,5 +17,6 @@ export default {
   play,
   arrow,
   HomeHexa,
-  Round1Img
+  Round1Img,
+  Round2Img
 }
