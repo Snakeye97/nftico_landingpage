@@ -33,7 +33,7 @@ const Navbar = () => {
           onClick={()=>settoggle((prev)=>!prev)}
         />
 
-        <div className={`${toggle ? 'flex':'hidden'} bg-primary rounded-xl p-6 absolute top-20 right-2 mx-4 my-4 min-w-[140px] sidebar`}>
+        <div className={`${toggle ? 'flex':'hidden'} bg-mainbg rounded-xl p-6 absolute top-20 right-2 mx-4 my-4 min-w-[140px] sidebar z-[10]`}>
             <ul className='flex-1 list-none justify-center items-center'>
             {navLinks.map((nav, index)=> (
               <li key={nav.id}
