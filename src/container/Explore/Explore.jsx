@@ -4,7 +4,7 @@ import images from '../../assets/images'
 
 const Explore = () => {
   return (
-    <section className={`flex md:flex-row flex-col ${styles.paddingY} relative`}>
+    <section className={`flex md:flex-row flex-col ${styles.paddingY} relative`} id='explore'>
       {/* text Container */}
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 z-1`}>
         <h2 className='text-whiteText font-Outfit font-semibold sm:text-[54px] text-[44px]'>Discover, collect, and sell <br className='sm:flex hidden'/> extraordinary <span className="text-pinkHover">NFTs</span></h2>
