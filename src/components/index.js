@@ -1,6 +1,6 @@
 import Navbar from './Navbar';
 import roundImg from "./roundImg";
-import Subheading from './SubHeading';
+import Subheading from './Subheading';
 import droplist from './droplist';
 
 export {
