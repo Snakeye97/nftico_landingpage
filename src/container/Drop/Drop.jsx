@@ -1,5 +1,5 @@
 import React from 'react'
-import Subheading from '../../components'
+import Subheading from '../../components/Subheading'
 
 const Drop = () => {
   return (
