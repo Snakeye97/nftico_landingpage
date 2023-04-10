@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from './components'
-import { Drop, Explore, Stats } from './container'
+import { Collection, Drop, Explore, Stats } from './container'
 import styles from './style'
 import './App.css'
 
@@ -22,6 +22,7 @@ const App = () => (
         <div className={`${styles.boxWidth}`}>
           <Stats/>
           <Drop/>
+          <Collection />
         </div>
       </div>
     </div>
