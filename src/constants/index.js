@@ -1,4 +1,4 @@
-
+import images from '../assets/images' 
 
 export const navLinks = [
   {
@@ -17,6 +17,49 @@ export const navLinks = [
     id: "activity",
     title: "Activity",
   },
+];
+
+export const dropItems = [
+  {
+    id: "1",
+    Image: images.drop1,
+    title: 'Science Jobs',
+    likeImg: images.Likes,
+    likes: '24',
+    flowImg: images.Flow,
+    flow: 'From 17.59 Flow',
+    people: images.DropPeople
+  },
+  {
+    id: "2",
+    Image: images.drop2,
+    title: 'Science Jobs',
+    likeImg: images.Likes,
+    likes: '24',
+    flowImg: images.Flow,
+    flow: 'From 17.59 Flow',
+    people: images.DropPeople
+  },
+  {
+    id: "3",
+    Image: images.drop3,
+    title: 'Science Jobs',
+    likeImg: images.Likes,
+    likes: '24',
+    flowImg: images.Flow,
+    flow: 'From 17.59 Flow',
+    people: images.DropPeople
+  },
+  {
+    id: "4",
+    Image: images.drop4,
+    title: 'Science Jobs',
+    likeImg: images.Likes,
+    likes: '24',
+    flowImg: images.Flow,
+    flow: 'From 17.59 Flow',
+    people: images.DropPeople
+  }
 ];
 
 /* export const features = [

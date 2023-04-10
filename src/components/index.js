@@ -1,11 +1,11 @@
 import Navbar from './Navbar';
 import roundImg from "./roundImg";
 import Subheading from './Subheading';
-import droplist from './droplist';
+import DropList from './Droplist';
 
 export {
   Navbar,
   roundImg,
-  droplist,
-  Subheading
+  Subheading,
+  DropList
 };
