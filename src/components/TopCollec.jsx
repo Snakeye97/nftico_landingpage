@@ -7,7 +7,7 @@ const TopCollec = () => {
     <div className='flex flex-col '>
       <div className='flex flex-wrap items-center justify-center m-[4rem] gap-4'>
         {topCollection.map((Top)=> (
-          <div className='p-[1px] w-[350px] h-[80px] bg-transparent hover:bg-gradient-to-r from-blue to-pinkHover rounded-[10px]'>
+          <div className='p-[1px] xs:w-[350px] w-[300px] h-[80px] bg-transparent hover:bg-gradient-to-r from-blue to-pinkHover rounded-[10px]'>
             <div key={Top.id}
               className='  text-whiteText w-full h-full flex gap-3 bg-cardBg rounded-[10px] items-center justify-start p-[1rem]'>
               <img src={Top.Image} alt="image" className='w-[50px] h-[50px] rounded-full '/>
