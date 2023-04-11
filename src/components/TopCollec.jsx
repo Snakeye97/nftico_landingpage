@@ -14,7 +14,7 @@ const TopCollec = () => {
 
               <div className='gap-2 flex flex-col'>
                 <div className='flex items-center'>
-                  <h2 className='font-Outfit text-[16px] w-[200px]'>{Top.title}</h2>
+                  <h2 className='font-Outfit text-[16px] xs:w-[200px] w-[150px]'>{Top.title}</h2>
                   <p className='font-Outfit text-[12px] w-[50px] text-[#03DB80]'>{Top.text}</p>
                 </div>
 
