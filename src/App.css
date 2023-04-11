@@ -104,3 +104,15 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.top__border{
+  border: 1px solid #e7e7e766;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.top__border:hover{
+  border: 2px solid;
+  border-image: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%) 1;
+  border-radius: 10px;
+  
+}

@@ -62,6 +62,90 @@ export const dropItems = [
   }
 ];
 
+export const topCollection = [
+  {
+    id: "1",
+    Image: images.Top1,
+    title: 'Bored Ape Yacht Club',
+    text: '2.9k ETH',
+    flowImg: images.Flow,
+    flow: '10,450.00',
+    percent: '+10.00%'
+  },
+  {
+    id: "2",
+    Image: images.Top2,
+    title: 'Chromie Squiggle ',
+    text: '2.7k ETH',
+    flowImg: images.Flow,
+    flow: '19,320.00',
+    percent: '+10.00%'
+  },
+  {
+    id: "3",
+    Image: images.Top3,
+    title: 'Worlwide Webb Land',
+    text: '2.9k ETH',
+    flowImg: images.Flow,
+    flow: '10,450.00',
+    percent: '+10.00%'
+  },
+  {
+    id: "4",
+    Image: images.Top4,
+    title: 'Bored Ape Chemistry ',
+    text: '2.5k ETH',
+    flowImg: images.Flow,
+    flow: '10,450.00',
+    percent: '+10.00%'
+  },
+  {
+    id: "5",
+    Image: images.Top5,
+    title: 'Bored Ape Kennel Club',
+    text: '1.9k ETH',
+    flowImg: images.Flow,
+    flow: '10,450.00',
+    percent: '+10.00%'
+  },
+  {
+    id: "6",
+    Image: images.Top6,
+    title: 'Brick-and-Mortar ',
+    text: '1.9k ETH',
+    flowImg: images.Flow,
+    flow: '10,450.00',
+    percent: '+10.00%'
+  },
+  {
+    id: "7",
+    Image: images.Top7,
+    title: 'RTFKT CloneX Mintvial',
+    text: '1.9k ETH',
+    flowImg: images.Flow,
+    flow: '10,450.00',
+    percent: '+10.00%'
+  },
+  {
+    id: "8",
+    Image: images.Top8,
+    title: 'Psychedelics Anonymous',
+    text: '1.4k ETH',
+    flowImg: images.Flow,
+    flow: '10,450.00',
+    percent: '+10.00%'
+  },
+  {
+    id: "9",
+    Image: images.Top9,
+    title: 'Free Way to Back Up',
+    text: '2.5k ETH',
+    flowImg: images.Flow,
+    flow: '10,450.00',
+    percent: '+10.00%'
+  },
+];
+
 /* export const features = [
   {
     id: "feature-1",

@@ -14,6 +14,15 @@ import drop4 from './drop4.jpg';
 import DropPeople from './dropPeople.svg';
 import Likes from './likes.svg';
 import Flow from './flow.svg';
+import Top1 from './Top1.jpg';
+import Top2 from './Top2.jpg';
+import Top3 from './Top3.jpg';
+import Top4 from './Top4.png';
+import Top5 from './Top5.jpg';
+import Top6 from './Top6.jpg';
+import Top7 from './Top7.jpg';
+import Top8 from './Top8.jpg';
+import Top9 from './Top9.jpg';
 
 
 export default {
@@ -33,4 +42,14 @@ export default {
   DropPeople,
   Likes,
   Flow,
+  Top1,
+  Top2,
+  Top3,
+  Top4,
+  Top5,
+  Top6,
+  Top7,
+  Top8,
+  Top9
+  
 }
