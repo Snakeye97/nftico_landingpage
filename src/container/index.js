@@ -3,6 +3,7 @@ import Stats from "./Stats/Stats";
 import Drop from "./Drop/Drop";
 import Subheading from "../components/Subheading";
 import Collection from "./Collection/Collection";
+import Trending from "./Trending/Trending";
 
 export {
   Explore,
@@ -10,4 +11,5 @@ export {
   Drop,
   Subheading,
   Collection,
+  Trending
 };

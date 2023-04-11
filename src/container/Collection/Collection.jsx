@@ -3,10 +3,13 @@ import { Subheading, TopCollec } from '../../components'
 
 const Collection = () => {
   return (
-    <div className='flex flex-col items-center justify-center w-full my-[3rem]'>
+    <div className='flex flex-col items-center justify-center w-full my-[3rem]' id='drop'>
       <div className='flex items-center justify-between w-full md:flex-row flex-col gap-5'>
         <div className='flex'>
-          <Subheading title='NFTs' text='Top Collections'/>
+          <div className='flex flex-col items-center justify-center relative'>
+        <h1 className='bg-gradient-to-r from-blue to-pinkHover text-transparent bg-clip-text font-Outfit font-bold leading-[130px] md:text-[104px] text-[74px]'>NFTs</h1>
+        <p className='text-whiteText font-Outfit md:text-[36px] text-[26px] absolute font-semibold top-[50%] w-[250px]'>Top Collections</p>
+      </div>
         </div>
 
         <div className='flex items-center justify-center gap-2'>

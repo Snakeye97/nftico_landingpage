@@ -23,6 +23,11 @@ import Top6 from './Top6.jpg';
 import Top7 from './Top7.jpg';
 import Top8 from './Top8.jpg';
 import Top9 from './Top9.jpg';
+import Trending1 from './Trending1.jpg';
+import Trending2 from './Trending2.jpg';
+import Trending3 from './Trending3.png';
+import Trending4 from './Trending4.png';
+import Verified from './verified.svg'
 
 
 export default {
@@ -50,6 +55,11 @@ export default {
   Top6,
   Top7,
   Top8,
-  Top9
+  Top9,
+  Trending1,
+  Trending2,
+  Trending3,
+  Trending4,
+  Verified
   
 }

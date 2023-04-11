@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from './components'
-import { Collection, Drop, Explore, Stats } from './container'
+import { Collection, Drop, Explore, Stats, Trending } from './container'
 import styles from './style'
 import './App.css'
 
@@ -23,6 +23,7 @@ const App = () => (
           <Stats/>
           <Drop/>
           <Collection />
+          <Trending />
         </div>
       </div>
     </div>

@@ -146,29 +146,52 @@ export const topCollection = [
   },
 ];
 
-/* export const features = [
+export const TrendingContent = [
   {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    id: "1",
+    Image: images.Trending1,
+    text: 'By Ya Chin-Ho',
+    verified: images.Verified,
+    title: 'Venture Capitalist',
+    From: 'From',
+    FromText: 'Not for sale',
+    Bid: 'Highest Bid',
+    BidText: '2.835 ETH',
   },
   {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    id: "2",
+    Image: images.Trending2,
+    text: 'By Ya Chin-Ho',
+    verified: images.Verified,
+    title: 'Venture Capitalist',
+    From: 'From',
+    FromText: 'Not for sale',
+    Bid: 'Highest Bid',
+    BidText: '2.835 ETH',
   },
   {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    id: "3",
+    Image: images.Trending3,
+    text: 'By Ya Chin-Ho',
+    verified: images.Verified,
+    title: 'Venture Capitalist',
+    From: 'From',
+    FromText: 'Not for sale',
+    Bid: 'Highest Bid',
+    BidText: '2.835 ETH',
   },
-]; */
+  {
+    id: "4",
+    Image: images.Trending4,
+    text: 'By Ya Chin-Ho',
+    verified: images.Verified,
+    title: 'Venture Capitalist',
+    From: 'From',
+    FromText: 'Not for sale',
+    Bid: 'Highest Bid',
+    BidText: '2.835 ETH',
+  },
+]
 
 /* export const feedback = [
   {
