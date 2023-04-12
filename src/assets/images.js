@@ -35,6 +35,7 @@ import Resource3 from './Resource3.jpg';
 import Person1 from './Person1.png';
 import Person2 from './Person2.png';
 import Person3 from './Person3.png';
+import Comment from './Comment.svg';
 
 
 export default {
@@ -75,5 +76,5 @@ export default {
   Person1,
   Person2,
   Person3,
-  
+  Comment
 }
