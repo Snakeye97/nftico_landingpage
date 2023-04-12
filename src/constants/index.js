@@ -157,6 +157,7 @@ export const TrendingContent = [
     FromText: 'Not for sale',
     Bid: 'Highest Bid',
     BidText: '2.835 ETH',
+    Likes: '32'
   },
   {
     id: "2",
@@ -168,6 +169,7 @@ export const TrendingContent = [
     FromText: 'Not for sale',
     Bid: 'Highest Bid',
     BidText: '2.835 ETH',
+    Likes: '32'
   },
   {
     id: "3",
@@ -179,6 +181,7 @@ export const TrendingContent = [
     FromText: 'Not for sale',
     Bid: 'Highest Bid',
     BidText: '2.835 ETH',
+    Likes: '32'
   },
   {
     id: "4",
@@ -190,6 +193,7 @@ export const TrendingContent = [
     FromText: 'Not for sale',
     Bid: 'Highest Bid',
     BidText: '2.835 ETH',
+    Likes: '32'
   },
 ]
 

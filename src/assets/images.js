@@ -27,7 +27,8 @@ import Trending1 from './Trending1.jpg';
 import Trending2 from './Trending2.jpg';
 import Trending3 from './Trending3.png';
 import Trending4 from './Trending4.png';
-import Verified from './Verified.svg'
+import Verified from './Verified.svg';
+import Reload from './reload.svg';
 
 
 export default {
@@ -60,6 +61,7 @@ export default {
   Trending2,
   Trending3,
   Trending4,
-  Verified
+  Verified,
+  Reload,
   
 }
