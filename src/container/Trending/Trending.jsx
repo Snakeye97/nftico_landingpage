@@ -23,7 +23,7 @@ const Trending = () => {
         </div>
         
         <div className='flex flex-wrap gap-3 items-center justify-center'>
-          {TrendingContent.map((trend,index)=> (
+          {TrendingContent.map((trend, index)=> (
             <div key={trend.id}
             className='z-10 bg-transparent p-[1px] hover:bg-gradient-to-r from-blue to-pinkHover rounded-[8px]'>
               
