@@ -29,6 +29,12 @@ import Trending3 from './Trending3.png';
 import Trending4 from './Trending4.png';
 import Verified from './Verified.svg';
 import Reload from './reload.svg';
+import Resource1 from './Resource1.jpg';
+import Resource2 from './Resource2.png';
+import Resource3 from './Resource3.jpg';
+import Person1 from './Person1.png';
+import Person2 from './Person2.png';
+import Person3 from './Person3.png';
 
 
 export default {
@@ -63,5 +69,11 @@ export default {
   Trending4,
   Verified,
   Reload,
+  Resource1,
+  Resource2,
+  Resource3,
+  Person1,
+  Person2,
+  Person3,
   
 }
