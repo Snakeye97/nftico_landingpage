@@ -8,7 +8,7 @@ const Collection = () => {
         <div className='flex'>
           <div className='flex flex-col items-center justify-center relative'>
             <h1 className='bg-gradient-to-r from-blue to-pinkHover text-transparent bg-clip-text font-Outfit font-bold leading-[130px] md:text-[104px] text-[74px]'>NFTs</h1>
-            <p className='text-whiteText font-Outfit md:text-[36px] text-[26px] absolute font-semibold top-[50%] w-[250px]'>Top Collections</p>
+            <p className='text-whiteText font-Outfit md:text-[36px] text-[26px] absolute font-semibold top-[50%] xs:w-[250px] w-[200px]'>Top Collections</p>
       </div>
         </div>
 
