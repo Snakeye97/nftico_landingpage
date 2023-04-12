@@ -33,17 +33,19 @@ const Trending = () => {
 
                   <div
                   onMouseEnter={() => handleMouseEnter(index)}
-                  onMouseLeave={handleMouseLeave} >
-                    <img src={trend.Image} alt="img" className='rounded-[8px] w-[200px] h-[200px] relative'/>
+                  onMouseLeave={handleMouseLeave}  >
+                    <img src={trend.Image} alt="img" className='rounded-[8px] w-[200px] h-[200px] relative hover:opacity-[0.5]'/>
                     { hoveredIndex === index && (
-                      <div>
-                      <div className='top-1 right-1 absolute flex flex-row gap-1'>
-                      <img src={images.Reload} alt="reload" className='bg-cardBg py-[2px] rounded-[5px] w-[15px] h-[15px]'/>
-                      <p className='flex flex-row items-center justify-center gap-1 bg-cardBg rounded-[5px] py-[2px] h-[15px] w-[35px] text-[12px]'><img src={images.Likes} alt="Likes" className='w-[10px] h-[10px]'/>{trend.Likes}</p>
-                    </div>
+                      <div className=''>
+                        <div className=''>
+                          <div className='top-1 right-1 absolute flex flex-row gap-1'>
+                            <img src={images.Reload} alt="reload" className='bg-cardBg py-[2px] rounded-[5px] w-[15px] h-[15px]'/>
+                            <p className='flex flex-row items-center justify-center gap-1 bg-cardBg rounded-[5px] py-[2px] h-[15px] w-[35px] text-[12px]'><img src={images.Likes} alt="Likes" className='w-[10px] h-[10px]'/>{trend.Likes}</p>
+                          </div>
 
-                    <button className='items-center justify-center bg-transparent border-[1px] border-[#E7E7E766] mt-[1.4rem] hover:bg-gradient-to-r from-blue to-pinkHover rounded-[8px] p-[0.2rem] hover:border-none text-whiteText font-Outfit font-semibold absolute bottom-[10%] w-[100px] left-[25%]'>Buy Now</button>
-                    </div>
+                          <button className='items-center justify-center bg-transparent border-[1px] border-[#E7E7E766] mt-[1.4rem] hover:bg-gradient-to-r from-blue to-pinkHover rounded-[8px] p-[0.2rem] hover:border-none text-whiteText font-Outfit font-semibold absolute bottom-[10%] w-[100px] left-[25%]'>Buy Now</button>
+                          </div>
+                      </div>
                     )}
                   </div>
 
