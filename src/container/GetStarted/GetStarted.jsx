@@ -20,7 +20,7 @@ const GetStarted = () => {
                     <div key={element.id} className='left-[50%] absolute bottom-[-10%] bg-cardBg rounded-[8px]'>
                         <div>
                             <button>NFT Token</button>
-                            <p><img src={element.cImg} alt="img" className='w-[10px] h-[10px]' />{element.cText}</p>
+                            <p><img src={element.cImg} alt="img" className='w-[30px] h-[30px]' />{element.cText}</p>
                         </div>
 
                         <h3>{element.title}</h3>
