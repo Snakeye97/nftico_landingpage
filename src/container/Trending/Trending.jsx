@@ -72,7 +72,7 @@ const Trending = () => {
           <div className='pink__gradient w-[40%] h-[40%] absolute z-0 rounded-full right-0 top-0'/>
       </div>
 
-      <div className='bg-[#e7e7e7] h-[1px] w-[50%] mt-[4rem]'>
+      <div className='bg-[#e7e7e7] h-[1px] w-[40%] mt-[4rem]'>
         <div className='bg-gradient-to-r from-blue to-pinkHover w-[40%] h-full'/>
       </div>
     </div>

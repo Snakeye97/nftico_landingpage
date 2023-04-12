@@ -4,6 +4,7 @@ import Drop from "./Drop/Drop";
 import Subheading from "../components/Subheading";
 import Collection from "./Collection/Collection";
 import Trending from "./Trending/Trending";
+import GetStarted from "./GetStarted/GetStarted";
 
 export {
   Explore,
@@ -11,5 +12,6 @@ export {
   Drop,
   Subheading,
   Collection,
-  Trending
+  Trending,
+  GetStarted
 };

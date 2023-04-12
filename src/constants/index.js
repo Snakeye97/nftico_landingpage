@@ -195,6 +195,36 @@ export const TrendingContent = [
     BidText: '2.835 ETH',
     Likes: '32'
   },
+];
+
+export const Resources = [
+{
+  id: '1',
+  title: 'The Seven Secrets I Should have recieved NFTs',
+  Person: images.Person1,
+  text: 'Election Season',
+  date: 'June 2, 2022',
+  cImg: images.Comment,
+  cText: 'No Comment'
+},
+{
+  id: '2',
+  title: 'I think I minted duplicate NFTs',
+  Person: images.Person2,
+  text: 'Courtney Henry',
+  date: 'May 27, 2022',
+  cImg: images.Comment,
+  cText: 'No Comment'
+},
+{
+  id: '3',
+  title: "The Marketplace isn't working",
+  Person: images.Person3,
+  text: 'Courtney Henry',
+  date: 'May 27, 2022',
+  cImg: images.Comment,
+  cText: 'No Comment'
+},
 ]
 
 /* export const feedback = [
