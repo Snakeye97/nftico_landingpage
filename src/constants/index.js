@@ -209,6 +209,7 @@ export const Resources = [
 },
 {
   id: 2,
+  mImg: images.Resource2,
   title: 'I think I minted duplicate NFTs',
   Person: images.Person2,
   text: 'Courtney Henry',
@@ -218,6 +219,7 @@ export const Resources = [
 },
 {
   id: 3,
+  mImg: images.Resource3,
   title: "The Marketplace isn't working",
   Person: images.Person3,
   text: 'Courtney Henry',
@@ -225,34 +227,42 @@ export const Resources = [
   cImg: images.Comment,
   cText: 'No Comment'
 },
-]
+];
 
-/* export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
-]; */
+export const browse = [
+{ id: 1,
+  mImg: images.Popular1,
+  title: 'Election Season',
+  eImg: images.Etherium,
+  eText: '0.05 ETH',
+  lImg: images.Likes,
+  lText: '32',
+},
+{ id: 2,
+  mImg: images.Popular2,
+  title: 'Election Season',
+  eImg: images.Etherium,
+  eText: '0.05 ETH',
+  lImg: images.Likes,
+  lText: '32',
+},
+{ id: 3,
+  mImg: images.Popular3,
+  title: 'Election Season',
+  eImg: images.Etherium,
+  eText: '0.05 ETH',
+  lImg: images.Likes,
+  lText: '32',
+},
+{ id: 4,
+  mImg: images.Popular4,
+  title: 'Election Season',
+  eImg: images.Etherium,
+  eText: '0.05 ETH',
+  lImg: images.Likes,
+  lText: '32',
+},
+];
 
 export const stats = [
   {
@@ -276,6 +286,29 @@ export const stats = [
     value: "50,000+",
   },
 ];
+
+export const browseButtons = [
+  {
+    id: 1,
+    title: 'All NFT,S'
+  },
+  {
+    id: 2,
+    title: 'Art'
+  },
+  {
+    id: 3,
+    title: 'Games'
+  },
+  {
+    id: 4,
+    title: 'Sports'
+  },
+  {
+    id: 5,
+    title: 'Trending Cards'
+  },
+]
 
 /* export const footerLinks = [
   {

@@ -34,7 +34,7 @@ const Trending = () => {
                   <div
                   onMouseEnter={() => handleMouseEnter(index)}
                   onMouseLeave={handleMouseLeave}  >
-                    <img src={trend.Image} alt="img" className='rounded-[8px] w-[200px] h-[200px] relative hover:opacity-[0.5]'/>
+                    <img src={trend.Image} alt="img" className='rounded-[8px] w-[220px] h-[200px] relative hover:opacity-[0.5]'/>
                     { hoveredIndex === index && (
                       <div className=''>
                         <div className='top-1 right-1 absolute flex flex-row gap-1'>

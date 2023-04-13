@@ -1,8 +1,9 @@
 import React from 'react'
 import { Navbar } from './components'
-import { Collection, Drop, Explore, GetStarted, Stats, Trending } from './container'
+import { Collection, Drop, Explore, GetStarted, Popular, Stats, Trending, Wallet } from './container'
 import styles from './style'
 import './App.css'
+import CTA from './container/CTA/CTA'
 
 const App = () => (
     <div className='bg-mainBg w-full overflow-hidden'>
@@ -25,6 +26,9 @@ const App = () => (
           <Collection />
           <Trending />
           <GetStarted />
+          <Popular />
+          <Wallet />
+          <CTA />
         </div>
       </div>
     </div>

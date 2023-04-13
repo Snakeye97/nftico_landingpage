@@ -36,6 +36,17 @@ import Person1 from './Person1.png';
 import Person2 from './Person2.png';
 import Person3 from './Person3.png';
 import Comment from './Comment.svg';
+import Popular1 from './Popular1.jpg';
+import Popular2 from './Popular2.jpg';
+import Popular3 from './Popular3.jpg';
+import Popular4 from './Popular4.jpg';
+import Etherium from './Etherium.svg';
+import Diamond from './Diamond.png';
+import Client1 from './Client1.png';
+import Client2 from './Client2.png';
+import Client3 from './Client3.png';
+import Client4 from './Client4.png';
+import Client5 from './Client5.png';
 
 
 export default {
@@ -76,5 +87,16 @@ export default {
   Person1,
   Person2,
   Person3,
-  Comment
+  Comment,
+  Popular1,
+  Popular2,
+  Popular3,
+  Popular4,
+  Etherium,
+  Client1,
+  Client2,
+  Client3,
+  Client4,
+  Client5,
+  Diamond,
 }
