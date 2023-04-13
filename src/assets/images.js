@@ -44,7 +44,7 @@ import Etherium from './Etherium.svg';
 import Diamond from './Diamond.png';
 import Client1 from './Client1.png';
 import Client2 from './Client2.png';
-import Client3 from './Client3.png';
+import Client3 from './client3.png';
 import Client4 from './Client4.png';
 import Client5 from './Client5.png';
 
