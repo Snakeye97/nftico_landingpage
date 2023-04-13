@@ -19,7 +19,7 @@ const GetStarted = () => {
                 <div className='font-Outfit text-whiteText mt-[2rem] relative md:w-[600px] w-full'>
                     <img src={images.Resource1} alt="Get started" className='w-[600px] h-[400px] rounded-[8px] relative'/>
                     {elementwithIdOne.map((element)=> (
-                        <div key={element.id} className='p-[1rem] md:left-[20%] left-[10%] absolute bottom-[-10%] bg-cardBg rounded-[8px]'>
+                        <div key={element.id} className='p-[1rem] md:left-[20%] left-[0] absolute bottom-[-10%] bg-cardBg rounded-[8px]'>
                             <div className='flex gap-3'>
                                 <button className='py-[0.2rem] px-[0.6rem] bg-gradient-to-r from-blue to-pinkHover rounded-[8px] font-semibold text-[16px]'>NFT Token</button>
                                 <p className='flex gap-2 text-[14px] items-center'><img src={element.cImg} alt="img" className='w-[10px] h-[10px]' />{element.cText}</p>
@@ -40,9 +40,9 @@ const GetStarted = () => {
 
                 <div className='mt-[2rem] gap-4 flex flex-col md:w-[600px] w-full'>
                     {elementwithoutIdOne.map((element)=> (
-                        <div key={element.id} className='p-[1.3rem] bg-cardBg rounded-[8px] flex gap-3 w-full'>
-                            <img src={element.mImg} alt="img" className='w-[150px] h-[150px] rounded-[8px]'/>
-                                <div className='text-whiteText'>
+                        <div key={element.id} className='p-[1.3rem] bg-cardBg rounded-[8px] flex gap-3 w-full flex-wrap'>
+                            <img src={element.mImg} alt="img" className='sm:w-[150px] w-[300px] sm:h-[150px] h-[300px] rounded-[8px]'/>
+                                <div className='text-whiteText '>
                                     <div className='flex gap-3'>
                                         <button className={`${toggle ? (element.id === 2 ? 'flex' : 'hidden') : ''} py-[0.2rem] px-[0.6rem] bg-gradient-to-r from-blue to-pinkHover rounded-[8px] font-semibold text-[14px]`}>Game</button>
                                         <button className={`${toggle ? (element.id === 3 ? 'flex' : 'hidden') : ''} py-[0.2rem] px-[0.6rem] bg-gradient-to-r from-blue to-pinkHover rounded-[8px] font-semibold text-[14px]`}>NFT Token</button>
