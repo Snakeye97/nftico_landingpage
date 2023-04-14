@@ -25,7 +25,7 @@ const Footerlinks = () => {
             <h2 className='text-[24px] leading-[28px] font-[500]'>Marketplace</h2>
             <p className='text-[14px] w-[300px]'>If you’re an NFT enthusiast or are looking to download our NFT App.</p>
 
-            <div className='flex w-[30%]'>
+            <div className='flex sm:w-[30%] w-[20%]'>
               <input type="text" placeholder='Type Your Email' className='bg-cardBg text-[16px] py-[0.4rem] px-[0.6rem] rounded-l-[8px]'/>
               <button className='rounded-r-[8px] py-[0.4rem] px-[0.8rem] bg-gradient-to-r from-blue to-pinkHover'>Subscribe</button>
             </div>
