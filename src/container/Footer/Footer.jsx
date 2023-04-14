@@ -10,7 +10,7 @@ const Footer = () => {
           <Footerlinks />
         </div>
 
-        <div className={` ${styles.paddingX} flex flex-wrap justify-between bg-cardBg w-full items-center py-[1rem] text-whiteText `}>
+        <div className={` ${styles.paddingX} flex flex-wrap justify-between bg-cardBg w-full items-center py-[1rem] text-whiteText font-Outfit `}>
           <ul className='flex list-none gap-6 font-semibold cursor-pointer'>
             <li>Privacy Policy</li>
             <li>License</li>
