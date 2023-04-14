@@ -47,6 +47,10 @@ import Client2 from './Client2.png';
 import Client3 from './client3.png';
 import Client4 from './Client4.png';
 import Client5 from './Client5.png';
+import facebook from './facebook.svg';
+import linkedin from './linkedin.svg';
+import instagram from './instagram.svg';
+import twitter from './twitter.svg';
 
 
 export default {
@@ -99,4 +103,8 @@ export default {
   Client4,
   Client5,
   Diamond,
+  instagram,
+  twitter,
+  facebook,
+  linkedin
 }

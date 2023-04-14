@@ -310,28 +310,28 @@ export const browseButtons = [
   },
 ]
 
-/* export const footerLinks = [
+export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Marketplace",
     links: [
       {
-        name: "Content",
+        name: "Explore",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Help Center",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Become a Partner",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "About Us",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Platform Status",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
@@ -340,80 +340,82 @@ export const browseButtons = [
     title: "Community",
     links: [
       {
-        name: "Help Center",
+        name: "Profile",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Favorites",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Watchlist",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
+        name: "My Collections",
         link: "https://www.hoobank.com/blog/",
       },
       {
-        name: "Newsletters",
+        name: "Rankings",
+        link: "https://www.hoobank.com/newsletters/",
+      },
+      {
+        name: "Activity",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Categories",
     links: [
       {
-        name: "Our Partner",
+        name: "Art",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Collectibles",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Games",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Sports",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Trading Cards",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Photography",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
   },
-]; */
+];
 
-/* export const socialMedia = [
+export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
+    icon: images.instagram,
     link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
-    icon: facebook,
+    icon: images.facebook,
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
-    icon: twitter,
+    icon: images.twitter,
     link: "https://www.twitter.com/",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
+    icon: images.linkedin,
     link: "https://www.linkedin.com/",
   },
-]; */
+];
 
-/* export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-]; */

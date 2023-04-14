@@ -8,6 +8,7 @@ import GetStarted from "./GetStarted/GetStarted";
 import Popular from "./Popular/Popular";
 import Wallet from "./Wallet/Wallet";
 import CTA from "./CTA/CTA";
+import Footer from "./Footer/Footer";
 
 export {
   Explore,
@@ -20,4 +21,5 @@ export {
   Popular,
   Wallet,
   CTA,
+  Footer
 };

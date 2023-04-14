@@ -3,6 +3,7 @@ import roundImg from "./roundImg";
 import Subheading from './Subheading';
 import TopCollec from './TopCollec';
 import BrowsePopular from './BrowsePopular';
+import Footerlinks from './Footerlinks';
 
 export {
   Navbar,
@@ -10,4 +11,5 @@ export {
   Subheading,
   TopCollec,
   BrowsePopular,
+  Footerlinks
 };

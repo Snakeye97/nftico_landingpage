@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from './components'
-import { Collection, Drop, Explore, GetStarted, Popular, Stats, Trending, Wallet } from './container'
+import { Collection, Drop, Explore, Footer, GetStarted, Popular, Stats, Trending, Wallet } from './container'
 import styles from './style'
 import './App.css'
 import CTA from './container/CTA/CTA'
@@ -30,6 +30,10 @@ const App = () => (
           <Wallet />
           <CTA />
         </div>
+      </div>
+
+      <div>
+        <Footer />
       </div>
     </div>
   )
