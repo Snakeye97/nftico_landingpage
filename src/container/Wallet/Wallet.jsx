@@ -3,7 +3,7 @@ import images from '../../assets/images'
 
 const Wallet = () => {
   return (
-    <div>
+    <div id='activity'>
 
       <div className='relative flex md:flex-row flex-col'>
         <img src={images.Diamond} alt="diamond" />
