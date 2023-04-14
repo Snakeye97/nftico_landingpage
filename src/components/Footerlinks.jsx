@@ -26,8 +26,8 @@ const Footerlinks = () => {
             <p className='text-[14px] w-[300px]'>If you’re an NFT enthusiast or are looking to download our NFT App.</p>
 
             <div className='flex w-[300px]'>
-              <input type="text" placeholder='Type Your Email' className='bg-cardBg text-[16px] py-[0.4rem] px-[0.6rem] rounded-l-[8px]'/>
-              <button className='rounded-r-[8px] py-[0.4rem] px-[0.8rem] bg-gradient-to-r from-blue to-pinkHover'>Subscribe</button>
+              <input type="text" placeholder='Type Your Email' className='bg-cardBg text-[16px] py-[0.4rem] px-[0.6rem] w-[200px] rounded-l-[8px]'/>
+              <button className='rounded-r-[8px] py-[0.4rem] px-[0.8rem] bg-gradient-to-r from-blue to-pinkHover w-[100px]'>Subscribe</button>
             </div>
 
             <div className='flex gap-4'>
